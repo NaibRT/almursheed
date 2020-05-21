@@ -1,0 +1,105 @@
+$main-color:#0b8071;
+$bg-color: #f7f7f7;
+.topNav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 20px;
+    width: 100%;
+    background-color: $bg-color !important;
+    .container {
+        .topnavcontainer {
+            width: 100%;
+            .firstcontainer {
+                width: 50%;
+                float: left;
+                .currency,
+                .language {
+                    display: none;
+                    select {
+                        font-size: 0.6em;
+                        border: 1px solid $main-color;
+                        -webkit-appearance: none !important;
+                        text-align: center !important;
+                        align-items: center;
+                        padding: 5px !important;
+                    }
+                }
+            }
+            .secondcontainer {
+                width: 100%;
+                .dropLogBtn,
+                .support {
+                    display: inline-block;
+                }
+                .profile {
+                    float: right;
+                    background-image: url('../../../images/user.jpg');
+                    width: 30px;
+                    height: 30px;
+                    cursor:pointer;
+                    border-radius: 50%;
+                    display: none;
+                    background-size: cover;
+                    z-index: 13 !important;
+                    #loggedid {
+                        margin-top: 40px !important;
+                        background-color: $bg-color;
+                        width: 100px;
+                        text-align: right;
+                        margin-left: -70px;
+                        border-radius: 6px;
+                        display: none;
+                        z-index: 13 !important;
+                        .loggediditem {
+                            display: block;
+                            text-decoration: none;
+                            color: black;
+                            padding: 5px;
+                        }
+                    }
+                    #loggedid.open {
+                        display: block;
+                        position: relative;
+                        z-index: 13 !important;
+                    }
+                }
+                .support {
+                    float: right;
+                    .supportItem {
+                        text-decoration: none;
+                        color: black;
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:900px) {
+    .topNav {
+        .firstcontainer {
+            width: 50%;
+            float: left;
+            .language,
+            .currency {
+                display: inline-block !important;
+            }
+        }
+        .secondcontainer {
+            width: 50% !important;
+            float: left;
+            .support {
+                display: none !important;
+            }
+            .profile {
+                display: inline-block !important;
+            }
+        }
+    }
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}

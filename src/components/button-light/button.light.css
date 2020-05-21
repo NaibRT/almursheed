@@ -1,0 +1,17 @@
+.light-btn{
+ background: 0 0;
+ border: 1px solid #0b8071;
+ min-width: 120px;
+ padding: 5px 0;
+ border-radius: 3px;
+ font-family: Averta;
+ font-size: 16px;
+ font-weight: 700;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: center;
+ color: #0b8071;
+ cursor: pointer;
+}

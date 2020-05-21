@@ -1,0 +1,32 @@
+$main-color:#0b8071;
+$bg-color: #f7f7f7;
+.bottomNav {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: $bg-color;
+    width: 100%;
+    .container {
+        .navcontainer {
+            .bottomnav_item {
+                margin-right: 30px;
+                font-size: 18px !important;
+                font-weight: 600;
+                transition: 500ms;
+                text-decoration: none;
+                color: black;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+            .bottomnav_item.active {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+@media(max-width:900px) {
+    .bottomNav {
+        display: none !important;
+    }
+}

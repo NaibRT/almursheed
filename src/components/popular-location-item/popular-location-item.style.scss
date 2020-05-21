@@ -1,0 +1,76 @@
+
+                .swiper-wrapper {
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                        /* Center slide text vertically */
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+    
+                        .popular_attractions_locations_bottom_item {
+                            // border: 1px solid #c9c9c9;
+                            margin: 1px;
+                            box-shadow: 0px 0px 0px 1px #c9c9c9;
+                            border-radius: 3px;
+                            text-align: left;
+                            img {
+                                margin-bottom: 25px;
+                                width: 100%;
+                                height: 150px;
+                                object-fit: cover;
+                            }
+                            .popular_attractions_locations_name{
+                                margin-left: 12px;
+                                font-family: Averta;
+                                font-size: 16px;
+                                font-weight: 600;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: normal;
+                                letter-spacing: normal;
+                            }
+                            .popular_attractions_locations_bottom_item_ratings{
+                                display: flex;
+                                justify-content: left;
+                                // align-items: baseline;
+                                img{
+                                    width: 20px;
+                                    margin-bottom: 4px;
+                                    margin-left: 10px;
+                                }
+                                p{
+                                    margin-left: 11px;
+                                    font-family: Averta;
+                                    font-size: 13px;
+                                    margin-bottom: 4px;
+                                }
+                                span{
+                                    font-family: Averta;
+                                    font-size: 13px;
+                                    color: #888888;
+                                    line-height: 26px;
+                                    margin-left: 10px;                                
+                                }
+                            }
+                            p{
+                                margin-left: 12px;
+                                font-family: Averta;
+                                font-size: 13px;
+                                margin-bottom: 4px;
+                            }
+                       
+                        }
+                    }
+                }
+               
